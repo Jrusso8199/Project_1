@@ -15,7 +15,7 @@ public class ExpenseMain {
 //		UserDao.createUser("Bob", "Smashface", "dface", "password", "stuopid@dkfjdkj.com", 1);
 //		UserDao.createUser("Goon", "Derpson", "myname", "password", "stuopid@dkfjdkj.com", 1);
 //		UserDao.createUser("Bill", "Gates", "bgate", "password", "bgates@microsoft.com", 1);
-//		User temp = UserDao.getUserById(7);
+//		User temp = UserDao.getUserById(3);
 //		ReimbursementDao.createReimbursement(502, "Lodging", temp);
 //		ReimbursementDao.createReimbursement(83, "Food", temp);
 //		System.out.println(ReimbursementDao.getReimbursementById(9).toString());
@@ -25,7 +25,7 @@ public class ExpenseMain {
 //		}
 		
 //		System.out.println(UserDao.getUserByUserName("jrusso").toString());
-		ReimbursementDao.updateReimbursement(3, 2);
+//		ReimbursementDao.updateReimbursement(3, 2);
 
 	}
 }

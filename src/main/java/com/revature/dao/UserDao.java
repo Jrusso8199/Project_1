@@ -47,11 +47,11 @@ public class UserDao{
 	public static void createUser(String firstName, String lastName, String username, String password, String email, int roleId) {
 		
 		UserRole ur1 = new UserRole();
+		UserRole ur2 = new UserRole();
 		ur1.setId(1);
 		ur1.setType("EMPLOYEE");
 //		urDao.createUser(ur1);
 		
-		UserRole ur2 = new UserRole();
 		ur2.setId(2);
 		ur2.setType("MANAGER");
 //		urDao.createUser(ur2);

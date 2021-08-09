@@ -46,11 +46,11 @@ public class UserService {
 //	}
 	
 	
-	public User signIn(String username, String password) throws UserDoesNotExistException, InvalidCredentialsException{
+	public static User signIn(String username, String password) throws UserDoesNotExistException, InvalidCredentialsException{
 		System.out.println("In uServ");
 		System.out.println(username);
 		System.out.println(password);
-		User u = uDao.getUserByUserName(username);
+		User u = UserDao.getUserByUserName(username);
 		System.out.println(u);
 //		if(u.getId() == 0) {
 		if(u == null) {
