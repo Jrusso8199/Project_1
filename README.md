@@ -28,14 +28,9 @@ To-do list:
 * Impliment Lombok to remove boilerplate code
 
 ## Getting Started
+
 ````
-
-
-
-
 git clone https://github.com/Jrusso8199/Project_1.git
-
-
 
 ````
 
