@@ -1,25 +1,28 @@
-# Project_1
+# Project_1 Reimbursements
 
 ## Project Description
 
-Here goes your awesome project description!
+This app is designed to track employee reimbursments. It has two classes of users.
+* Employee: Can add and track the status of expenses to be reimbursed by the company.
+* Manager:  Can see, approve, or deny reimbursements of employees.
 
 ## Technologies Used
 
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Java
+* Spring
+* Angular
+* JUnit
 
 ## Features
 
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Hibernate and JPA to control data persistance.
+* Servlets to connect front and backe ends.
+* Angular to create single page application using AJAX
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Impliment Angular
+* Clean up back end make JPA connections
+* Impliment Lombok to remove boilerplate code
 
 ## Getting Started
    
