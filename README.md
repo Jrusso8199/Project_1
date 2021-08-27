@@ -8,10 +8,13 @@ This app is designed to track employee reimbursments. It has two classes of user
 
 ## Technologies Used
 
-* Java
+* Java 8
 * Spring
 * Angular
 * JUnit
+* Lombok
+* Spring JPA
+* Mavin
 
 ## Features
 
@@ -26,23 +29,14 @@ To-do list:
 
 ## Getting Started
    
-(include git clone command)
-(include all environment setup steps)
-
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
-
-- All the `code` required to get started
-- Images of what it should look like
+git clone https://github.com/Jrusso8199/Project_1.git
 
 ## Usage
 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+> Recomended use of Spring Tool Suite and Visual Studio Code.
+> Open project and change /src/main/resources/application.properties to change your DB location and credentials.
 
-## Contributors
-
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
 
 ## License
 
-This project uses the following license: [<license_name>](<link>).
+This project is free to use and modify.
